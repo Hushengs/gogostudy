@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce59b7b4-2571-4131-998c-ac409305b35d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter2/echo4.go" afterDir="false" />
+    <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace_copy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chanTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetchall.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\gogostudy\.idea" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build hello_world.go">
     <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -102,15 +110,6 @@
       <workItem from="1578651633523" duration="2033000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
