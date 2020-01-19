@@ -5,6 +5,7 @@ import (
 	"gogostudy/tree"
 )
 
+//组合包装
 type myTreeNode struct {
 	node *tree.Node
 }

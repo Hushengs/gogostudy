@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/entry/entry.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/entry/entry_old.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/entry/mian.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/cf.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/cf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/months.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/months.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/rev.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/rev.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/entry/entry.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +61,9 @@
       <recent name="D:\develop\gogostudy\.idea" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develop\gogostudy\tree\entry" />
+      <recent name="D:\develop\gogostudy\queue\entry" />
       <recent name="D:\develop\gogostudy" />
+      <recent name="D:\develop\gogostudy\tree\entry" />
       <recent name="D:\develop\gogostudy\chapter2\tempconv" />
     </key>
   </component>
@@ -122,7 +120,7 @@
       <workItem from="1579228404706" duration="29000" />
       <workItem from="1579254912227" duration="966000" />
       <workItem from="1579395004683" duration="614000" />
-      <workItem from="1579429767446" duration="2436000" />
+      <workItem from="1579429767446" duration="3598000" />
     </task>
     <servers />
   </component>
