@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/queue/entry/mian.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/appendInt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/sha256.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tree/entry/entry_inner.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/entry/entry.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,21 +52,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tree/entry" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company/kangaroo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop\gogostudy\tree\entry" />
-      <recent name="D:\develop\gogostudy\.idea" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\develop\gogostudy\queue\entry" />
       <recent name="D:\develop\gogostudy" />
       <recent name="D:\develop\gogostudy\tree\entry" />
       <recent name="D:\develop\gogostudy\chapter2\tempconv" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\gogostudy\tree\entry" />
+      <recent name="D:\develop\gogostudy\.idea" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build hello_world.go">
@@ -121,6 +123,12 @@
       <workItem from="1579254912227" duration="966000" />
       <workItem from="1579395004683" duration="614000" />
       <workItem from="1579429767446" duration="3598000" />
+      <workItem from="1579481840685" duration="25000" />
+      <workItem from="1579481952421" duration="20000" />
+      <workItem from="1579482055122" duration="2330000" />
+      <workItem from="1579507748578" duration="4296000" />
+      <workItem from="1579571015023" duration="2151000" />
+      <workItem from="1579593505915" duration="5859000" />
     </task>
     <servers />
   </component>
@@ -132,11 +140,11 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1579396046406">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1579598853383">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578891371839" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579396046406" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579598853383" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579138138927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

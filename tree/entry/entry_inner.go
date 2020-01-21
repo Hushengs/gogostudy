@@ -6,30 +6,34 @@ import (
 )
 
 //内嵌Embedding
-//type myTreeNode struct {
-//	*tree.Node
-//}
+type myTreeNode struct {
+	*tree.Node
+}
 
 //组合包装
-type myTreeNode struct {
-	node *tree.Node
-}
+//type myTreeNode struct {
+//	node *tree.Node
+//}
 
 //重命名 后续遍历
 func (myNode * myTreeNode) postOrder(){
-	if myNode == nil || myNode.node==nil{
+	if myNode == nil || myNode.Node==nil{
 		return
 	}
-	left := myTreeNode{myNode.node.Left}
+	left := myTreeNode{myNode.Left}
 	left.postOrder()
-	right := myTreeNode{myNode.node.Right}
+	right := myTreeNode{myNode.Right}
 	right.postOrder()
-	myNode.node.Print()
+	myNode.Print()
+}
+
+func (myNode *myTreeNode) Traverse()  {
+	fmt.Println("this method is shadowed")
 }
 
 func main() {
-	var root tree.Node
-	root = tree.Node{Value:3}
+	//var root tree.Node
+	root := myTreeNode{&tree.Node{Value:3}}
 	root.Left = &tree.Node{}
 	root.Right = &tree.Node{5,nil,nil}
 	root.Right.Left = new(tree.Node)
@@ -37,9 +41,9 @@ func main() {
 	root.Right.Left.SetValue(4)
 
 	root.Traverse()
+	root.Node.Traverse()
 	fmt.Println()
-	node := myTreeNode{&root}
-	node.postOrder()
+	root.postOrder()
 	fmt.Println()
 
 }
