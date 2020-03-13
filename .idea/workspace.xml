@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter4/appendInt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/sha256.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/entry/entry_inner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/basic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/triangle_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/reverse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/rotate.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/rotate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/srepeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/srepeat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/adder/adder.go" beforeDir="false" afterPath="$PROJECT_DIR$/functional/adder/adder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/entry/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/tree/entry/entry.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company/kangaroo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -69,25 +73,84 @@
       <recent name="D:\develop\gogostudy\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello_world.go">
-    <configuration name="go build hello_world.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkTriangle in gogostudy/basic">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="gogostudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gogostudy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gogostudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/hello_world.go" />
+      <filePath value="$PROJECT_DIR$/test.go" />
       <package value="gogostudy" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build os.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gogostudy/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gogostudy" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/os.go" />
-      <package value="gogostudy" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/basic/basic.go" />
+      <package value="gogostudy/basic" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gogostudy/zhihu" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gogostudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/zhihu/test.go" />
+      <package value="gogostudy/zhihu" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkTriangle in gogostudy/basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gogostudy" />
+      <working_directory value="$PROJECT_DIR$/basic" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="gogostudy/basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^BenchmarkTriangle$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTriangle in gogostudy/basic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gogostudy" />
+      <working_directory value="$PROJECT_DIR$/basic" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gogostudy/basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestTriangle$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="gogostudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.BenchmarkTriangle in gogostudy/basic" />
+        <item itemvalue="Go Build.go build gogostudy/basic" />
+        <item itemvalue="Go Test.TestTriangle in gogostudy/basic" />
+        <item itemvalue="Go Build.go build gogostudy" />
+        <item itemvalue="Go Build.go build gogostudy/zhihu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -129,6 +192,20 @@
       <workItem from="1579507748578" duration="4296000" />
       <workItem from="1579571015023" duration="2151000" />
       <workItem from="1579593505915" duration="5859000" />
+      <workItem from="1579600512402" duration="40000" />
+      <workItem from="1582613637871" duration="3807000" />
+      <workItem from="1582618646701" duration="1315000" />
+      <workItem from="1582679875226" duration="10000" />
+      <workItem from="1582682641764" duration="8524000" />
+      <workItem from="1582789763219" duration="2086000" />
+      <workItem from="1582854897777" duration="89000" />
+      <workItem from="1582855006471" duration="791000" />
+      <workItem from="1583135147042" duration="1151000" />
+      <workItem from="1583137015302" duration="594000" />
+      <workItem from="1583142714853" duration="1923000" />
+      <workItem from="1583999175780" duration="5713000" />
+      <workItem from="1584063582847" duration="2000000" />
+      <workItem from="1584065948189" duration="3141000" />
     </task>
     <servers />
   </component>
@@ -140,14 +217,77 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1579598853383">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584064460900">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064460900" />
+    <state x="2588" y="154" key="#go_build_gogostudy" timestamp="1584065580550">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="154" key="#go_build_gogostudy/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065580550" />
+    <state x="2588" y="154" key="#go_build_gogostudy/zhihu" timestamp="1584064888554">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2588" y="154" key="#go_build_gogostudy/zhihu/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064888554" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584064900943">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578891371839" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579598853383" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064900943" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1584069371659">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1584069371659">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1584069371659">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1584069371659">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1584065639323">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065639323" />
+    <state width="1877" height="295" key="GridCell.Tab.1.center" timestamp="1584065639322">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065639322" />
+    <state width="1877" height="295" key="GridCell.Tab.1.left" timestamp="1584065639322">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065639322" />
+    <state width="1877" height="295" key="GridCell.Tab.1.right" timestamp="1584065639322">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065639322" />
+    <state x="2696" y="443" key="NewPhpFileDialog" timestamp="1582613940445">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2696" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582613940445" />
+    <state x="2254" y="153" key="new project wizard" timestamp="1584065976192">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="153" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584065976192" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579138138927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579138138927" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/zhihu/test.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
