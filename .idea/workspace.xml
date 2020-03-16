@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/basic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/triangle_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/channel/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goroutine/goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/reverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/reverse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/rotate.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/rotate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/srepeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/srepeat.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter4/struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/struct.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional/adder/adder.go" beforeDir="false" afterPath="$PROJECT_DIR$/functional/adder/adder.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,16 +68,7 @@
       <recent name="D:\develop\gogostudy\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkTriangle in gogostudy/basic">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="gogostudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gogostudy/goroutine">
     <configuration name="go build gogostudy" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gogostudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,12 +87,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gogostudy/zhihu" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build gogostudy/goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gogostudy" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/zhihu/test.go" />
-      <package value="gogostudy/zhihu" />
+      <filePath value="$PROJECT_DIR$/goroutine/goroutine.go" />
+      <package value="gogostudy/goroutine" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -132,23 +118,13 @@
       <pattern value="^TestTriangle$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="gogostudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gogostudy/goroutine" />
         <item itemvalue="Go Test.BenchmarkTriangle in gogostudy/basic" />
         <item itemvalue="Go Build.go build gogostudy/basic" />
         <item itemvalue="Go Test.TestTriangle in gogostudy/basic" />
         <item itemvalue="Go Build.go build gogostudy" />
-        <item itemvalue="Go Build.go build gogostudy/zhihu" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +181,11 @@
       <workItem from="1583142714853" duration="1923000" />
       <workItem from="1583999175780" duration="5713000" />
       <workItem from="1584063582847" duration="2000000" />
-      <workItem from="1584065948189" duration="3141000" />
+      <workItem from="1584065948189" duration="4011000" />
+      <workItem from="1584170313178" duration="2668000" />
+      <workItem from="1584174169919" duration="317000" />
+      <workItem from="1584321806916" duration="1189000" />
+      <workItem from="1584328770233" duration="4466000" />
     </task>
     <servers />
   </component>
@@ -229,27 +209,27 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="154" key="#go_build_gogostudy/zhihu/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064888554" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584064900943">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584173014213">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1578891371839" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064900943" />
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1584069371659">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584173014213" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1584070238806">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
-    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1584069371659">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584070238806" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1584070238806">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
-    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1584069371659">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584070238806" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1584070238806">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
-    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1584069371659">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584070238806" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1584070238806">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584069371659" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584070238806" />
     <state width="1877" height="295" key="GridCell.Tab.1.bottom" timestamp="1584065639323">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
