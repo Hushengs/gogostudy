@@ -5,6 +5,7 @@ type Profile struct {
 	//Gender string
 	Age int
 	Height int
+	Label []string
 	//Weight int
 	//Income string
 	//Marriage string

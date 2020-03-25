@@ -7,8 +7,10 @@ import (
 	"strconv"
 )
 
-var ageRe = regexp.MustCompile(`<div data-v-8b1eac0c="" class="m-btn purple">([0-9]+)岁</div>`)
-var heightRe = regexp.MustCompile(`<div data-v-8b1eac0c="" class="m-btn purple">([0-9]+)cm</div>`)
+var ageRe = regexp.MustCompile(`<div class="m-btn purple" data-v-8b1eac0c>([\d]+)岁</div>`)
+
+var heightRe = regexp.MustCompile(`<div class="m-btn purple" data-v-8b1eac0c>([\d]+)cm</div>`)
+//var otherRe = regexp.MustCompile(`<div class="m-btn purple" data-v-8b1eac0c>([^<]+)</div>`)
 
 func Profile(contents []byte) engine.ParseResult{
 	profile := model.Profile{}
@@ -19,6 +21,13 @@ func Profile(contents []byte) engine.ParseResult{
 	height,err := strconv.Atoi(extractString(contents,heightRe))
 	if err == nil{
 		profile.Height = height
+	}
+	re := regexp.MustCompile(`<div class="m-btn purple" data-v-8b1eac0c>([^<]+)</div>`)
+	matchs := re.FindAllSubmatch(contents,-1)
+	if matchs != nil{
+		for _,v:=range matchs{
+			profile.Label = append(profile.Label,string(v[1]))
+		}
 	}
 	result :=engine.ParseResult{
 		Items:    []interface{}{profile},
