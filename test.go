@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func reverse(s []int) {
 	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
 		s[i], s[j] = s[j], s[i]
@@ -40,4 +42,21 @@ func main() {
 	//	fmt.Println(x)
 	//	fmt.Printf("%T cap=%d\n ",x,cap(x))
 	//}
+	//times,_ := time.Parse("2006-01-02 15:04:05","2020-05-05 12:11:11")
+	//fmt.Println(times.Format("200601"))
+	//fmt.Println(times)
+
+	//m := map[string]string{"s1":"super1","s2":"super2"}
+	//delete(m,"s1")
+	//fmt.Println(m)
+
+	var a []int
+	for i:=0;i<100;i++{
+		a = append(a,i)
+	}
+	var b = make([]int,10)
+	//copy(b,a)
+	b = a[0:10]
+	a[0] = 999
+	fmt.Println(b)
 }

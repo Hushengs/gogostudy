@@ -1,0 +1,7 @@
+[[fileDir]]
+srcDir = "D:/develop/gogostudy/copyfile/srcPath"
+destDir = "D:/develop/gogostudy/copyfile/destPath"
+
+[[fileDir]]
+srcDir = "D:/develop/gogostudy/copyfile/srcPath1"
+destDir = "D:/develop/gogostudy/copyfile/destPath1"
