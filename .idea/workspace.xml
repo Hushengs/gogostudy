@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a750b6-5b20-462b-8eb9-f2b0adc38ae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bufiotest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/file_copy.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/copyfile.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/copyfile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/file_dir.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/test1/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/test2/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keng/keng.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keng/structgo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyfile/destPath/202006051067/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播/to 好i/to hao1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyfile/destPath/202006051067/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyfile/excel.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/to卓影 补充介质-成人职业兴趣/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播/to 好i/to hao1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copyfile/srcPath/to卓影 补充介质-成人职业兴趣/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播/“0”预算打造刷屏级营销：碎片化时代，玩转病毒传播.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filewrite/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filewrite/filewrite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filewrite/testwritefile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HHHushengs/strings/func_practice.go" beforeDir="false" afterPath="$PROJECT_DIR$/HHHushengs/strings/func_practice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/regex.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/regex.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile.rar" beforeDir="false" afterPath="$PROJECT_DIR$/copyfile.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/copyfile.exe" beforeDir="false" afterPath="$PROJECT_DIR$/copyfile/copyfile.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/copyfile.go" beforeDir="false" afterPath="$PROJECT_DIR$/copyfile/copyfile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/destPath/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/destPath/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/destPath/test1 - 副本/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/destPath/test1/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/destPath/test2/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/file_dir.toml" beforeDir="false" afterPath="$PROJECT_DIR$/copyfile/file_dir.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/srcPath/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/srcPath/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/srcPath/test1 - 副本/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/srcPath/test1/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyfile/srcPath/test2/test2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/muke/chapter8/errhandling/defer/defer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,24 +78,25 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company/kangaroo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\develop\gogostudy\copyfile\srcPath" />
-      <recent name="D:\develop\gogostudy\copyfile" />
-      <recent name="D:\develop\gogostudy\queue\entry" />
-      <recent name="D:\develop\gogostudy" />
-      <recent name="D:\develop\gogostudy\tree\entry" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\gogostudy\copyfile\srcPath" />
       <recent name="D:\develop\gogostudy\copyfile\destPath" />
       <recent name="D:\develop\gogostudy\crawler\zhenai\parser" />
       <recent name="D:\develop\gogostudy\tree\entry" />
       <recent name="D:\develop\gogostudy\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\gogostudy\copyfile" />
+      <recent name="D:\develop\gogostudy\copyfile\srcPath" />
+      <recent name="D:\develop\gogostudy\queue\entry" />
+      <recent name="D:\develop\gogostudy" />
+      <recent name="D:\develop\gogostudy\tree\entry" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build gogostudy/muke/chapter8/errhandling/defer">
@@ -229,7 +236,10 @@
       <workItem from="1590369584164" duration="4611000" />
       <workItem from="1590384897697" duration="56000" />
       <workItem from="1590819516017" duration="2307000" />
-      <workItem from="1591855753459" duration="6364000" />
+      <workItem from="1591855753459" duration="14060000" />
+      <workItem from="1591925687177" duration="2344000" />
+      <workItem from="1591930294871" duration="2153000" />
+      <workItem from="1591934256860" duration="5659000" />
     </task>
     <servers />
   </component>
@@ -264,10 +274,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="154" key="#go_build_gogostudy/zhihu/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584064888554" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1591858780332">
+    <state x="2883" y="116" key="FileChooserDialogImpl" timestamp="1591941540459">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591858780332" />
+    <state x="2883" y="116" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591941540459" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1585287660365">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -308,6 +318,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584945114269" />
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591869605371">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591869605371" />
     <state x="2556" y="253" width="647" height="534" key="find.popup" timestamp="1585122689627">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

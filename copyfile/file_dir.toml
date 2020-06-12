@@ -1,7 +1,5 @@
 [[fileDir]]
-srcDir = "D:/develop/gogostudy/copyfile/srcPath"
-destDir = "D:/develop/gogostudy/copyfile/destPath"
-
-[[fileDir]]
-srcDir = "D:/develop/gogostudy/copyfile/srcPath1"
-destDir = "D:/develop/gogostudy/copyfile/destPath1"
+#srcDir = "G:/to卓影 补充介质-成人职业兴趣/"
+srcDir = "D:/develop/gogostudy/copyfile/srcPath/补充介质-成人职业兴趣/"
+#destDir = "F:/成都聚源天成内容片单/第一批(没有介质)/"
+destDir = "D:/develop/gogostudy/copyfile/destPath/"
